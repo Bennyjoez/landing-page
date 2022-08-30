@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img {
+    height: 50px;
+    order: 1;
+}
+
+.logo .title {
+    order: 2;
+    font-size: 24px;
+    font-weight: 600;
+}
